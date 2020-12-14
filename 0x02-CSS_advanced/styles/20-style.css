@@ -188,8 +188,8 @@ ul.row {
     text-align: right;
 }
 
-.row {
-    content: none;
+.row::after {
+    content: "";
     display: table;
     clear: both;
 }
