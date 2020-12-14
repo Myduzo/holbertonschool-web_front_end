@@ -103,7 +103,8 @@ a:active {
 }
 
 .section-footer {
-    align-items: var(--section-footer-align);
+    text-align: var(--section-footer-align);
+    padding: var(--section-footer-padding);
 }
 
 .section-tagline {
