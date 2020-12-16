@@ -1,0 +1,13 @@
+/* Margin mixin */
+@mixin HZmargin($size) {
+    margin-left: $size;
+    margin-right: $size;
+}
+
+body {
+    @include HZmargin(10px);
+}
+
+  div {
+    @include HZmargin(15px);
+}
