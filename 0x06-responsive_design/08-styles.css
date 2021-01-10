@@ -448,19 +448,7 @@
     justify-content: center;
     min-height: 35vh;
   }
-  /* Section Latest news
-      ============================= */
-  
-  .section-latest-news .row {
-    flex-direction: row-reverse;
-  }
 
-  @media only screen and (max-width: 767px) {
-    .section-latest-news .row {
-      flex-direction: column;
-    }
-  }
-  
   @media only screen and (max-width: 767px) {
     .section-hero {
       margin: -0.1rem 0;
@@ -474,6 +462,20 @@
       padding: 2rem;
     }
   }
+
+  /* Section Latest news
+      ============================= */
+  
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .section-latest-news .row {
+      flex-direction: column;
+    }
+  }
+
   /* Section SERVICES
       ============================= */
   
